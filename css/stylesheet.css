@@ -116,6 +116,7 @@ a{
 }
 #screen #tabla #price
 {
+	margin-top: 2%;
 	font-family: Consolas, monaco, monospace;
 	font-style: normal;
 	font-variant: normal;
@@ -123,11 +124,11 @@ a{
 	left: 40%;
 	position: absolute;
 	display: inline-block;
+	z-index: 1;
 }
 #screen #tabla .priceitem
 {
-	top: 10%;
-	left: 30%;
+	left: 33%;
 	display: inline-block;
 	width: 10%;
 	height: auto;
@@ -136,7 +137,7 @@ a{
 	font-variant: normal;
 	font-size: 1vw; 
 	background-color: #3D8EE8;
-	
+	margin-top: 5%;
 	position: relative;
 
 }
